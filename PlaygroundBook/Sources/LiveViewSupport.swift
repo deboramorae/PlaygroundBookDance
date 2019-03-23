@@ -13,7 +13,9 @@ import SpriteKit
 ///
 /// By default, this loads an instance of `LiveViewController` from `LiveView.storyboard`.
 
-public var danceColor: UIColor! = #colorLiteral(red: 0.4666666667, green: 0.03921568627, blue: 0.3450980392, alpha: 1)
+public var danceColor: UIColor! = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+public var emotion : Emotion = .happy
+public var dancar : Bool = false
 
 public func instantiateLiveView() -> PlaygroundLiveViewable {
     let storyboard = UIStoryboard(name: "LiveView", bundle: nil)

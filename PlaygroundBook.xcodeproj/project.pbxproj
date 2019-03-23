@@ -20,6 +20,8 @@
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
+		EA4383B522457C2100469DBE /* animacao_raiva in Resources */ = {isa = PBXBuildFile; fileRef = EA4383B422457C2100469DBE /* animacao_raiva */; };
+		EA4383B722457CCD00469DBE /* animacao_tristeza in Resources */ = {isa = PBXBuildFile; fileRef = EA4383B622457CCD00469DBE /* animacao_tristeza */; };
 		EA8528B42242B90C00679F63 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8528B32242B90C00679F63 /* GameScene.swift */; };
 		EA8528B52242B90C00679F63 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8528B32242B90C00679F63 /* GameScene.swift */; };
 		EA8528B72242B91B00679F63 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA8528B62242B91A00679F63 /* GameScene.sks */; };
@@ -28,7 +30,6 @@
 		EA8528BB2242B92000679F63 /* Action.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA8528B92242B92000679F63 /* Action.sks */; };
 		EA8528D02242F52400679F63 /* DancerScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA8528CF2242F52400679F63 /* DancerScene.sks */; };
 		EA8528D22242F53800679F63 /* DancerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8528D12242F53800679F63 /* DancerScene.swift */; };
-		EA8528D62242F9AB00679F63 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8528D52242F9AB00679F63 /* test2.png */; };
 		EA8528DF2243014F00679F63 /* Configurador.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8528DE2243014F00679F63 /* Configurador.swift */; };
 		EADAAC5C22444BC000314DFD /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADAAC5B22444BC000314DFD /* Array+Extensions.swift */; };
 		EADAAC602244513300314DFD /* animacao_danca_feliz in Resources */ = {isa = PBXBuildFile; fileRef = EADAAC5F2244513300314DFD /* animacao_danca_feliz */; };
@@ -124,12 +125,13 @@
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
+		EA4383B422457C2100469DBE /* animacao_raiva */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animacao_raiva; sourceTree = "<group>"; };
+		EA4383B622457CCD00469DBE /* animacao_tristeza */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animacao_tristeza; sourceTree = "<group>"; };
 		EA8528B32242B90C00679F63 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		EA8528B62242B91A00679F63 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		EA8528B92242B92000679F63 /* Action.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Action.sks; sourceTree = "<group>"; };
 		EA8528CF2242F52400679F63 /* DancerScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DancerScene.sks; sourceTree = "<group>"; };
 		EA8528D12242F53800679F63 /* DancerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DancerScene.swift; sourceTree = "<group>"; };
-		EA8528D52242F9AB00679F63 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
 		EA8528DE2243014F00679F63 /* Configurador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurador.swift; sourceTree = "<group>"; };
 		EADAAC5B22444BC000314DFD /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		EADAAC5F2244513300314DFD /* animacao_danca_feliz */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animacao_danca_feliz; sourceTree = "<group>"; };
@@ -204,7 +206,6 @@
 		5E2A7ADC204F611300F4E17A = {
 			isa = PBXGroup;
 			children = (
-				EA8528D52242F9AB00679F63 /* test2.png */,
 				EADAAC612244523000314DFD /* bailarinoo.png */,
 				5E0E37542065A065008FA4BE /* README.md */,
 				5E086DC12051C5A7004D8D25 /* PlaygroundBook */,
@@ -275,6 +276,8 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				EA4383B622457CCD00469DBE /* animacao_tristeza */,
+				EA4383B422457C2100469DBE /* animacao_raiva */,
 				EADAAC5F2244513300314DFD /* animacao_danca_feliz */,
 				EA8528CE2242F3FF00679F63 /* DancerScene */,
 				EA8528C72242F25C00679F63 /* GameScene */,
@@ -425,8 +428,9 @@
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				EA8528B72242B91B00679F63 /* GameScene.sks in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
-				EA8528D62242F9AB00679F63 /* test2.png in Resources */,
+				EA4383B522457C2100469DBE /* animacao_raiva in Resources */,
 				EA8528BA2242B92000679F63 /* Action.sks in Resources */,
+				EA4383B722457CCD00469DBE /* animacao_tristeza in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
