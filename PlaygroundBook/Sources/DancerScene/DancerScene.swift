@@ -71,11 +71,27 @@ public class DancerScene : SKScene{
         dancerSec.color = danceColor
         dancerSec.colorBlendFactor = 2
         
-        dancer.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.05)))
+        switch velocity {
+        case .alta:
+            dancer.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.05)))
+            
+            dancerTec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.05)))
+            
+            dancerSec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.05)))
+        case .media:
+            dancer.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.03)))
+            
+            dancerTec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.03)))
+            
+            dancerSec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.03)))
+        case .baixa:
+            dancer.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.1)))
+            
+            dancerTec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.1)))
+            
+            dancerSec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.1)))
+        }
         
-        dancerTec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.05)))
-        
-        dancerSec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.05)))
     }
     
     func dancaRaiva(){
@@ -88,7 +104,17 @@ public class DancerScene : SKScene{
         dancerRaiva.removeAllActions()
         dancerRaiva.color = danceColor
         dancerRaiva.colorBlendFactor = 2
-        dancerRaiva.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaRaiva"]!, timePerFrame: 0.06)))
+        
+        switch velocity {
+        case .alta:
+            dancerRaiva.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaRaiva"]!, timePerFrame: 0.06)))
+        
+        case .baixa:
+            dancerRaiva.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaRaiva"]!, timePerFrame: 0.1)))
+        case .media:
+            dancerRaiva.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaRaiva"]!, timePerFrame: 0.03)))
+        }
+        
     }
     
     func dancaTriste()  {
@@ -102,7 +128,16 @@ public class DancerScene : SKScene{
         dancerTriste.removeAllActions()
         dancerTriste.color = danceColor
         dancerTriste.colorBlendFactor = 2
-        dancerTriste.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaTristeza"]!, timePerFrame: 0.1)))
+        
+        switch velocity {
+        case .alta:
+            dancerTriste.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaTristeza"]!, timePerFrame: 0.03)))
+            
+        case .baixa:
+            dancerTriste.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaTristeza"]!, timePerFrame: 0.1)))
+        case .media:
+            dancerTriste.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaTristeza"]!, timePerFrame: 0.06)))
+        }
         
     }
 }
