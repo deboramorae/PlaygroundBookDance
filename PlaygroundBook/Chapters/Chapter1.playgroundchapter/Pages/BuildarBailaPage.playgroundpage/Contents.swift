@@ -31,8 +31,9 @@ import SpriteKit
 
 danceColor =  /*#-editable-code*/ #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)/*#-end-editable-code*/
 emotion = /*#-editable-code*/.happy/*#-end-editable-code*/
-dancar = /*#-editable-code*/false/*#-end-editable-code*/
+toDance = /*#-editable-code*/false/*#-end-editable-code*/
 velocity = /*#-editable-code*/.alta/*#-end-editable-code*/
+scenario = /*#-editable-code*/.dark/*#-end-editable-code*/
 //#-hidden-code
 //
 //#-code-completion(everything, hide)

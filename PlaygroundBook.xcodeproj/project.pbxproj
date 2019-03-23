@@ -34,6 +34,9 @@
 		EADAAC5C22444BC000314DFD /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADAAC5B22444BC000314DFD /* Array+Extensions.swift */; };
 		EADAAC602244513300314DFD /* animacao_danca_feliz in Resources */ = {isa = PBXBuildFile; fileRef = EADAAC5F2244513300314DFD /* animacao_danca_feliz */; };
 		EADAAC622244523000314DFD /* bailarinoo.png in Resources */ = {isa = PBXBuildFile; fileRef = EADAAC612244523000314DFD /* bailarinoo.png */; };
+		EAE682CB224616C600DB827A /* marromClaro.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE682CA224616C600DB827A /* marromClaro.png */; };
+		EAE682CD224616CE00DB827A /* marromEscuro.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE682CC224616CE00DB827A /* marromEscuro.png */; };
+		EAE682D72246B1A400DB827A /* iconefeelthedance.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE682D62246B1A400DB827A /* iconefeelthedance.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -104,7 +107,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5E086DC02051C5A7004D8D25 /* Dance.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dance.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E086DC02051C5A7004D8D25 /* Feel the Dance.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feel the Dance.playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
@@ -136,6 +139,9 @@
 		EADAAC5B22444BC000314DFD /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		EADAAC5F2244513300314DFD /* animacao_danca_feliz */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animacao_danca_feliz; sourceTree = "<group>"; };
 		EADAAC612244523000314DFD /* bailarinoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bailarinoo.png; sourceTree = "<group>"; };
+		EAE682CA224616C600DB827A /* marromClaro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marromClaro.png; sourceTree = "<group>"; };
+		EAE682CC224616CE00DB827A /* marromEscuro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marromEscuro.png; sourceTree = "<group>"; };
+		EAE682D62246B1A400DB827A /* iconefeelthedance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconefeelthedance.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +166,7 @@
 		5E086DA4204F706E004D8D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E086DC02051C5A7004D8D25 /* Dance.playgroundbook */,
+				5E086DC02051C5A7004D8D25 /* Feel the Dance.playgroundbook */,
 				5EF2F9AB2054BBF300191409 /* libBook_Sources.a */,
 				5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */,
 			);
@@ -206,6 +212,8 @@
 		5E2A7ADC204F611300F4E17A = {
 			isa = PBXGroup;
 			children = (
+				EAE682CA224616C600DB827A /* marromClaro.png */,
+				EAE682CC224616CE00DB827A /* marromEscuro.png */,
 				EADAAC612244523000314DFD /* bailarinoo.png */,
 				5E0E37542065A065008FA4BE /* README.md */,
 				5E086DC12051C5A7004D8D25 /* PlaygroundBook */,
@@ -267,6 +275,7 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				EAE682D62246B1A400DB827A /* iconefeelthedance.png */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
 			);
@@ -334,7 +343,7 @@
 			);
 			name = PlaygroundBook;
 			productName = PlaygroundBook;
-			productReference = 5E086DC02051C5A7004D8D25 /* Dance.playgroundbook */;
+			productReference = 5E086DC02051C5A7004D8D25 /* Feel the Dance.playgroundbook */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5EA2E3BC2056F35A00416A35 /* LiveViewTestApp */ = {
@@ -425,9 +434,12 @@
 				EADAAC622244523000314DFD /* bailarinoo.png in Resources */,
 				EADAAC602244513300314DFD /* animacao_danca_feliz in Resources */,
 				EA8528D02242F52400679F63 /* DancerScene.sks in Resources */,
+				EAE682CD224616CE00DB827A /* marromEscuro.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				EA8528B72242B91B00679F63 /* GameScene.sks in Resources */,
+				EAE682D72246B1A400DB827A /* iconefeelthedance.png in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
+				EAE682CB224616C600DB827A /* marromClaro.png in Resources */,
 				EA4383B522457C2100469DBE /* animacao_raiva in Resources */,
 				EA8528BA2242B92000679F63 /* Action.sks in Resources */,
 				EA4383B722457CCD00469DBE /* animacao_tristeza in Resources */,

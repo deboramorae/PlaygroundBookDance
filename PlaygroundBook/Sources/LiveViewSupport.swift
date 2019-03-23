@@ -15,8 +15,9 @@ import SpriteKit
 
 public var danceColor: UIColor! = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
 public var emotion : Emotion = .happy
-public var dancar : Bool = false
+public var toDance : Bool = false
 public var velocity : Velocidade = .alta
+public var scenario : Scene = .dark
 
 public func instantiateLiveView() -> PlaygroundLiveViewable {
     let storyboard = UIStoryboard(name: "LiveView", bundle: nil)

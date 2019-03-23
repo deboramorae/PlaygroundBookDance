@@ -11,12 +11,16 @@ import PlaygroundSupport
 
 public class DancerScene : SKScene{
     
-    public var dancer : SKSpriteNode!
-    public var dancerRaiva: SKSpriteNode!
-    public var dancerTriste : SKSpriteNode!
+    var dancer : SKSpriteNode!
+    var dancerRaiva: SKSpriteNode!
+    var dancerTriste : SKSpriteNode!
     
-    public var dancerSec : SKSpriteNode!
-    public var dancerTec : SKSpriteNode!
+    var dancerSec : SKSpriteNode!
+    var dancerTec : SKSpriteNode!
+    
+    var palco : SKSpriteNode!
+    var palcoClaro : SKSpriteNode!
+    
     
     
     override public func didMove(to view: SKView) {
@@ -28,6 +32,9 @@ public class DancerScene : SKScene{
         dancerSec = self.childNode(withName: "dancerSec") as?SKSpriteNode
         dancerTec = self.childNode(withName: "dancerTec") as?SKSpriteNode
         
+        palco = self.childNode(withName: "palco") as? SKSpriteNode
+        palcoClaro = self.childNode(withName: "palcoClaro") as? SKSpriteNode
+        
         if let node = self.childNode(withName: "dancer") {
             dancer = node as? SKSpriteNode
             
@@ -36,7 +43,7 @@ public class DancerScene : SKScene{
             //let recolor =  SKAction.colorize(withColorBlendFactor: 0, duration: 10.0)
             //dancer.run(recolor)
         }
-        if dancar{
+        if toDance{
             
             switch emotion {
             case .angry:
@@ -57,8 +64,8 @@ public class DancerScene : SKScene{
         
         dancer.alpha = 1
         
-        dancerTec.alpha = 1
-        dancerSec.alpha = 1
+        dancerTec.alpha = 0.8
+        dancerSec.alpha = 0.8
         
         dancer.removeAllActions()
         
@@ -70,6 +77,15 @@ public class DancerScene : SKScene{
         
         dancerSec.color = danceColor
         dancerSec.colorBlendFactor = 2
+        
+        switch scenario {
+        case .dark:
+            palcoClaro.alpha = 0
+            palco.alpha = 1
+        case .light:
+            palco.alpha = 0
+            palcoClaro.alpha = 1
+        }
         
         switch velocity {
         case .alta:
@@ -105,6 +121,15 @@ public class DancerScene : SKScene{
         dancerRaiva.color = danceColor
         dancerRaiva.colorBlendFactor = 2
         
+        switch scenario {
+        case .dark:
+            palcoClaro.alpha = 0
+            palco.alpha = 1
+        case .light:
+            palco.alpha = 0
+            palcoClaro.alpha = 1
+        }
+        
         switch velocity {
         case .alta:
             dancerRaiva.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaRaiva"]!, timePerFrame: 0.06)))
@@ -128,6 +153,15 @@ public class DancerScene : SKScene{
         dancerTriste.removeAllActions()
         dancerTriste.color = danceColor
         dancerTriste.colorBlendFactor = 2
+        
+        switch scenario {
+        case .dark:
+            palcoClaro.alpha = 0
+            palco.alpha = 1
+        case .light:
+            palco.alpha = 0
+            palcoClaro.alpha = 1
+        }
         
         switch velocity {
         case .alta:

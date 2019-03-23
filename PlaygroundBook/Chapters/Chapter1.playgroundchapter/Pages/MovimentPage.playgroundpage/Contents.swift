@@ -30,7 +30,7 @@ import SpriteKit
 //Escolha a cor do dancarino. Dica : Se
 
 emotion = /*#-editable-code*/.happy/*#-end-editable-code*/
-dancar = /*#-editable-code*/false/*#-end-editable-code*/
+toDance = /*#-editable-code*/false/*#-end-editable-code*/
 //#-hidden-code
 //
 //#-code-completion(everything, hide)
