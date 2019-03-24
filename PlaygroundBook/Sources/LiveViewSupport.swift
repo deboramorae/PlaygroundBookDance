@@ -67,3 +67,20 @@ public func returnSpriteDancer () -> SKView {
     
     
 }
+
+public func returnSpriteIntroduction () -> SKView {
+    // Load the SKScene from 'GameScene.sks'
+    
+    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 1024, height: 780))
+    
+    if let scene = IntroductionScene(fileNamed: "IntroductionScene") {
+        // Set the scale mode to scale to fit the window
+        scene.scaleMode = .aspectFill
+        
+        // Present the scene
+        sceneView.presentScene(scene)
+    }
+    return sceneView
+    
+    
+}

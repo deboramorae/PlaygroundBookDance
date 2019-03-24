@@ -8,6 +8,7 @@
 import Foundation
 import SpriteKit
 import PlaygroundSupport
+import AVFoundation
 
 public class DancerScene : SKScene{
     
@@ -21,6 +22,7 @@ public class DancerScene : SKScene{
     var palco : SKSpriteNode!
     var palcoClaro : SKSpriteNode!
     
+    var player : AVAudioPlayer?
     
     
     override public func didMove(to view: SKView) {
@@ -47,13 +49,15 @@ public class DancerScene : SKScene{
             
             switch emotion {
             case .angry:
-                
                 dancaRaiva()
+                playAudio(fileName: "Virtual_Light.mp3")
                 
             case .happy:
                 dancaFeliz()
+                playAudio(fileName: "Active_Form.mp3")
             case .sad:
                 dancaTriste()
+                playAudio(fileName: "Descent.mp3")
             }
         }
     }
@@ -173,6 +177,17 @@ public class DancerScene : SKScene{
             dancerTriste.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaTristeza"]!, timePerFrame: 0.06)))
         }
         
+    }
+    
+    func playAudio(fileName : String){
+        let path = Bundle.main.path(forResource: fileName, ofType: nil)!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player!.play()
+        } catch  {
+            print(error)
+        }
     }
 }
     

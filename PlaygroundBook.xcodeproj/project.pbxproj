@@ -37,6 +37,13 @@
 		EAE682CB224616C600DB827A /* marromClaro.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE682CA224616C600DB827A /* marromClaro.png */; };
 		EAE682CD224616CE00DB827A /* marromEscuro.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE682CC224616CE00DB827A /* marromEscuro.png */; };
 		EAE682D72246B1A400DB827A /* iconefeelthedance.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE682D62246B1A400DB827A /* iconefeelthedance.png */; };
+		EAE682DA2246BB8600DB827A /* IntroductionScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EAE682D92246BB8600DB827A /* IntroductionScene.sks */; };
+		EAE682DC2246BBA500DB827A /* IntroductionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE682DB2246BBA500DB827A /* IntroductionScene.swift */; };
+		EAE682DE2246BF6D00DB827A /* balao.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE682DD2246BF6C00DB827A /* balao.png */; };
+		EAE682E22246CF1100DB827A /* Descent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAE682E12246CF1100DB827A /* Descent.mp3 */; };
+		EAE682E42246D9E900DB827A /* Active_Form.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAE682E32246D9E900DB827A /* Active_Form.mp3 */; };
+		EAE682E62246DAB500DB827A /* Butchers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAE682E52246DAB500DB827A /* Butchers.mp3 */; };
+		EAE682EA2246DBB100DB827A /* Virtual_Light.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAE682E92246DBB100DB827A /* Virtual_Light.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -142,6 +149,13 @@
 		EAE682CA224616C600DB827A /* marromClaro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marromClaro.png; sourceTree = "<group>"; };
 		EAE682CC224616CE00DB827A /* marromEscuro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marromEscuro.png; sourceTree = "<group>"; };
 		EAE682D62246B1A400DB827A /* iconefeelthedance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconefeelthedance.png; sourceTree = "<group>"; };
+		EAE682D92246BB8600DB827A /* IntroductionScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IntroductionScene.sks; sourceTree = "<group>"; };
+		EAE682DB2246BBA500DB827A /* IntroductionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionScene.swift; sourceTree = "<group>"; };
+		EAE682DD2246BF6C00DB827A /* balao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balao.png; sourceTree = "<group>"; };
+		EAE682E12246CF1100DB827A /* Descent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Descent.mp3; sourceTree = "<group>"; };
+		EAE682E32246D9E900DB827A /* Active_Form.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Active_Form.mp3; sourceTree = "<group>"; };
+		EAE682E52246DAB500DB827A /* Butchers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Butchers.mp3; sourceTree = "<group>"; };
+		EAE682E92246DBB100DB827A /* Virtual_Light.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Virtual_Light.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +226,12 @@
 		5E2A7ADC204F611300F4E17A = {
 			isa = PBXGroup;
 			children = (
+				EAE682E12246CF1100DB827A /* Descent.mp3 */,
+				EAE682E32246D9E900DB827A /* Active_Form.mp3 */,
+				EAE682E52246DAB500DB827A /* Butchers.mp3 */,
+				EAE682E92246DBB100DB827A /* Virtual_Light.mp3 */,
 				EAE682CA224616C600DB827A /* marromClaro.png */,
+				EAE682DD2246BF6C00DB827A /* balao.png */,
 				EAE682CC224616CE00DB827A /* marromEscuro.png */,
 				EADAAC612244523000314DFD /* bailarinoo.png */,
 				5E0E37542065A065008FA4BE /* README.md */,
@@ -288,6 +307,7 @@
 				EA4383B622457CCD00469DBE /* animacao_tristeza */,
 				EA4383B422457C2100469DBE /* animacao_raiva */,
 				EADAAC5F2244513300314DFD /* animacao_danca_feliz */,
+				EAE682D82246BB5600DB827A /* IntroductionScene */,
 				EA8528CE2242F3FF00679F63 /* DancerScene */,
 				EA8528C72242F25C00679F63 /* GameScene */,
 				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
@@ -323,6 +343,15 @@
 				EA8528D12242F53800679F63 /* DancerScene.swift */,
 			);
 			path = DancerScene;
+			sourceTree = "<group>";
+		};
+		EAE682D82246BB5600DB827A /* IntroductionScene */ = {
+			isa = PBXGroup;
+			children = (
+				EAE682D92246BB8600DB827A /* IntroductionScene.sks */,
+				EAE682DB2246BBA500DB827A /* IntroductionScene.swift */,
+			);
+			path = IntroductionScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,17 +461,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				EADAAC622244523000314DFD /* bailarinoo.png in Resources */,
+				EAE682E62246DAB500DB827A /* Butchers.mp3 in Resources */,
 				EADAAC602244513300314DFD /* animacao_danca_feliz in Resources */,
 				EA8528D02242F52400679F63 /* DancerScene.sks in Resources */,
 				EAE682CD224616CE00DB827A /* marromEscuro.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				EA8528B72242B91B00679F63 /* GameScene.sks in Resources */,
 				EAE682D72246B1A400DB827A /* iconefeelthedance.png in Resources */,
+				EAE682DE2246BF6D00DB827A /* balao.png in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 				EAE682CB224616C600DB827A /* marromClaro.png in Resources */,
+				EAE682DA2246BB8600DB827A /* IntroductionScene.sks in Resources */,
 				EA4383B522457C2100469DBE /* animacao_raiva in Resources */,
+				EAE682E42246D9E900DB827A /* Active_Form.mp3 in Resources */,
+				EAE682EA2246DBB100DB827A /* Virtual_Light.mp3 in Resources */,
 				EA8528BA2242B92000679F63 /* Action.sks in Resources */,
 				EA4383B722457CCD00469DBE /* animacao_tristeza in Resources */,
+				EAE682E22246CF1100DB827A /* Descent.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +530,7 @@
 				EADAAC5C22444BC000314DFD /* Array+Extensions.swift in Sources */,
 				EA8528DF2243014F00679F63 /* Configurador.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
+				EAE682DC2246BBA500DB827A /* IntroductionScene.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
 				EA8528D22242F53800679F63 /* DancerScene.swift in Sources */,
 			);
