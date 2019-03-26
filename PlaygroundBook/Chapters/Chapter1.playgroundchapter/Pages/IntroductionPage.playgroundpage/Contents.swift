@@ -1,19 +1,19 @@
 /*:
-# **Estamos esperando por você...**
+# **We were waiting for you…**
 
-Bem vindo a nossa Academia de dança. Eu sou o Jon, e vou te guiar nessa jornada.
+Welcome to our Dance Academy. I’m Jon and will take you through this journey.
  
-Você sabia que a dança é uma ótima forma de expressar emoções atráves do corpos?!
+Do you know dance is a great way to express your emotions using your body?
  
-Aqui na Academia nós damos muito importante para isso, pois a dança conta uma história.
+ Here, at the Academy, we give care about it, because dance tells a story.
 
-**E, que tal aprender como criar sua própria história?**
+**What about learning how to create your own story??**
 
  * note:
-    Use em modo portrait para melhor experiência
+    For a better experience use the portrait mode
  
   - - -
- [Entre nessa jornada com o Jon](@next)
+ [Join into this journey with Jon](@next)
  */
 
 

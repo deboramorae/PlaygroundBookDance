@@ -16,7 +16,7 @@ import SpriteKit
 public var danceColor: UIColor! = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
 public var emotion : Emotion = .happy
 public var toDance : Bool = false
-public var velocity : Velocidade = .alta
+public var velocity : Velocidade = .high
 public var scenario : Scene = .dark
 
 public func instantiateLiveView() -> PlaygroundLiveViewable {

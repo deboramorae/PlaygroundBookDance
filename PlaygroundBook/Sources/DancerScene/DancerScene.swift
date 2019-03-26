@@ -50,7 +50,7 @@ public class DancerScene : SKScene{
             switch emotion {
             case .angry:
                 dancaRaiva()
-                playAudio(fileName: "Virtual_Light.mp3")
+                playAudio(fileName: "Virtual.mp3")
                 
             case .happy:
                 dancaFeliz()
@@ -92,19 +92,19 @@ public class DancerScene : SKScene{
         }
         
         switch velocity {
-        case .alta:
+        case .high:
             dancer.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.05)))
             
             dancerTec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.05)))
             
             dancerSec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.05)))
-        case .media:
+        case .mid:
             dancer.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.03)))
             
             dancerTec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.03)))
             
             dancerSec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.03)))
-        case .baixa:
+        case .low:
             dancer.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.1)))
             
             dancerTec.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaFeliz"]!, timePerFrame: 0.1)))
@@ -135,12 +135,12 @@ public class DancerScene : SKScene{
         }
         
         switch velocity {
-        case .alta:
+        case .high:
             dancerRaiva.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaRaiva"]!, timePerFrame: 0.06)))
         
-        case .baixa:
+        case .low:
             dancerRaiva.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaRaiva"]!, timePerFrame: 0.1)))
-        case .media:
+        case .mid:
             dancerRaiva.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaRaiva"]!, timePerFrame: 0.03)))
         }
         
@@ -168,12 +168,12 @@ public class DancerScene : SKScene{
         }
         
         switch velocity {
-        case .alta:
+        case .high:
             dancerTriste.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaTristeza"]!, timePerFrame: 0.03)))
             
-        case .baixa:
+        case .low:
             dancerTriste.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaTristeza"]!, timePerFrame: 0.1)))
-        case .media:
+        case .mid:
             dancerTriste.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["dancaTristeza"]!, timePerFrame: 0.06)))
         }
         

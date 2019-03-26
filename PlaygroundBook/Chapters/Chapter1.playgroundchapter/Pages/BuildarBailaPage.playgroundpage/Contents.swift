@@ -1,30 +1,32 @@
 /*:
- # **Agora é sua vez de criar uma Dança!**
+ # **Now it’s your turn to create a Dance!**
  
- Crie sua própria dance de acordo com as emoções.
+ Create your own dance according to your emotions.
  
- **Será se você está pronto para entrar na Academia?!**
+ **Do you think you’re ready to join to us at the Dance Academy?!**
  - - -
- **💡Dicas:**
- 1. Escolha uma cor que do bailarino que represente a emoção a ser escolhida:
+ **💡Tips:**
+ 1. Pick the dancer’s color(choose a color that represents better the emotion you will choose later on)
  
-        danceColor = .blue (ou click no quadrado da color)
- 
- 2. Escolha a emoção :
+ 2. Choose the emotion:
  
         emotion = .happy
  
- 3. Para fazê-lo dancar mude para :
+ 3. To start dancing change to :
  
         toDance = true
  
- 4. Escolha a velocidade dos passos:
+ 4. Choose the moves velocity:
  
-        velocity = .alta
+        velocity = .high
  
- 5. Escolha um cenário para o seu bailarino:
+ 5. Choose a scenario for your dancer:
  
         scenario = .dark
+ 
+ 6. Don't forget to turn up the sound volume.
+ 
+ While dancing our bodies express emotions, it says what can’t be said in words.
  */
 
 //#-hidden-code
@@ -36,7 +38,7 @@ import SpriteKit
 danceColor =  /*#-editable-code*/ #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)/*#-end-editable-code*/
 emotion = /*#-editable-code*/.happy/*#-end-editable-code*/
 toDance = /*#-editable-code*/false/*#-end-editable-code*/
-velocity = /*#-editable-code*/.alta/*#-end-editable-code*/
+velocity = /*#-editable-code*/.high/*#-end-editable-code*/
 scenario = /*#-editable-code*/.dark/*#-end-editable-code*/
 //#-hidden-code
 //#-code-completion(everything, hide)

@@ -51,11 +51,11 @@ class GameScene: SKScene {
             switch emotion {
             case .angry:
                 dancaRaiva()
-                playAudio(fileName: "Virtual_Light.mp3")
+                playAudio(fileName: "Virtual.mp3")
                 
             case .happy:
                 dancaFeliz()
-                playAudio(fileName: "Butchers.mp3")
+                playAudio(fileName: "Active_Form.mp3")
             case .sad:
                 dancaTriste()
                 playAudio(fileName: "Descent.mp3")

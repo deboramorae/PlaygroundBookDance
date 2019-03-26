@@ -1,27 +1,32 @@
 /*:
- # **Espero que não esteja cansado porque hoje vamos dançar muito!**
+ # **I hope you aren’t tired because today we are going to dance a lot!**
  
- Na dança quando queremos passar um sentimento usamos algumas variáveis para ajudar : Expressão facial, velocidade do movimento, posicionamento no palco.
+ Ready to learn a little about dancing?
  
- Uns exemplos são:
+ In dance when we want to cause a sensation we use some variables to help: facial expression, movement velocity and stage presence.
+
+ Example:
  
- **😄Happy:** Costuma-se usar movimentos mais rápidos e passos mais abertos.
+ **😄Happy:** Usually uses faster and wider moves.
  
- **☹️Sad:** Costuma-se usar movimentos em velocidade média e passos com mais força.
+ **😡Angry:** Usually uses medium velocity and stronger moves.
  
- **😡Angry:** Costuma-se usar movimenos mais lentos e passos mais contrários.
+ **☹️Sad:** Usually uses slower and contracted moves.
  
  - - -
- **💡Dicas:**
- 1. Escolha uma emoção:
+ **💡Tips:**
+ 1. Choose an emotion:
  
         emotion = .happy
  
- 2. Para fazê-lo dancar mude para :
+ 2. To start dance change to:
  
         toDance = true
  
- 3. Click em Run My Code
+ 3. Click on Run My Code
+ 
+ 4. Don't forget to turn up the sound volume.
+ 
  */
 
 //#-hidden-code
@@ -38,5 +43,5 @@ toDance = /*#-editable-code*/false/*#-end-editable-code*/
 //#-hidden-code
 PlaygroundPage.current.liveView =  returnSprite()
 //#-end-hidden-code
-//: [Click para destruir sua proporia experincia](@next)
+//: [Click to kill your experience](@next)
 

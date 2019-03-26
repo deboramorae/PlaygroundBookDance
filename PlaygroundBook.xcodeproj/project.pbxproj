@@ -20,6 +20,7 @@
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
+		EA0D807F2248175400C24D00 /* Virtual.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA0D807E2248175400C24D00 /* Virtual.mp3 */; };
 		EA4383B522457C2100469DBE /* animacao_raiva in Resources */ = {isa = PBXBuildFile; fileRef = EA4383B422457C2100469DBE /* animacao_raiva */; };
 		EA4383B722457CCD00469DBE /* animacao_tristeza in Resources */ = {isa = PBXBuildFile; fileRef = EA4383B622457CCD00469DBE /* animacao_tristeza */; };
 		EA8528B42242B90C00679F63 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8528B32242B90C00679F63 /* GameScene.swift */; };
@@ -42,8 +43,6 @@
 		EAE682DE2246BF6D00DB827A /* balao.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE682DD2246BF6C00DB827A /* balao.png */; };
 		EAE682E22246CF1100DB827A /* Descent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAE682E12246CF1100DB827A /* Descent.mp3 */; };
 		EAE682E42246D9E900DB827A /* Active_Form.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAE682E32246D9E900DB827A /* Active_Form.mp3 */; };
-		EAE682E62246DAB500DB827A /* Butchers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAE682E52246DAB500DB827A /* Butchers.mp3 */; };
-		EAE682EA2246DBB100DB827A /* Virtual_Light.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAE682E92246DBB100DB827A /* Virtual_Light.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -135,6 +134,7 @@
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
+		EA0D807E2248175400C24D00 /* Virtual.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Virtual.mp3; sourceTree = "<group>"; };
 		EA4383B422457C2100469DBE /* animacao_raiva */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animacao_raiva; sourceTree = "<group>"; };
 		EA4383B622457CCD00469DBE /* animacao_tristeza */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animacao_tristeza; sourceTree = "<group>"; };
 		EA8528B32242B90C00679F63 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -154,8 +154,6 @@
 		EAE682DD2246BF6C00DB827A /* balao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balao.png; sourceTree = "<group>"; };
 		EAE682E12246CF1100DB827A /* Descent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Descent.mp3; sourceTree = "<group>"; };
 		EAE682E32246D9E900DB827A /* Active_Form.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Active_Form.mp3; sourceTree = "<group>"; };
-		EAE682E52246DAB500DB827A /* Butchers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Butchers.mp3; sourceTree = "<group>"; };
-		EAE682E92246DBB100DB827A /* Virtual_Light.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Virtual_Light.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,8 +226,7 @@
 			children = (
 				EAE682E12246CF1100DB827A /* Descent.mp3 */,
 				EAE682E32246D9E900DB827A /* Active_Form.mp3 */,
-				EAE682E52246DAB500DB827A /* Butchers.mp3 */,
-				EAE682E92246DBB100DB827A /* Virtual_Light.mp3 */,
+				EA0D807E2248175400C24D00 /* Virtual.mp3 */,
 				EAE682CA224616C600DB827A /* marromClaro.png */,
 				EAE682DD2246BF6C00DB827A /* balao.png */,
 				EAE682CC224616CE00DB827A /* marromEscuro.png */,
@@ -461,7 +458,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EADAAC622244523000314DFD /* bailarinoo.png in Resources */,
-				EAE682E62246DAB500DB827A /* Butchers.mp3 in Resources */,
 				EADAAC602244513300314DFD /* animacao_danca_feliz in Resources */,
 				EA8528D02242F52400679F63 /* DancerScene.sks in Resources */,
 				EAE682CD224616CE00DB827A /* marromEscuro.png in Resources */,
@@ -474,8 +470,8 @@
 				EAE682DA2246BB8600DB827A /* IntroductionScene.sks in Resources */,
 				EA4383B522457C2100469DBE /* animacao_raiva in Resources */,
 				EAE682E42246D9E900DB827A /* Active_Form.mp3 in Resources */,
-				EAE682EA2246DBB100DB827A /* Virtual_Light.mp3 in Resources */,
 				EA8528BA2242B92000679F63 /* Action.sks in Resources */,
+				EA0D807F2248175400C24D00 /* Virtual.mp3 in Resources */,
 				EA4383B722457CCD00469DBE /* animacao_tristeza in Resources */,
 				EAE682E22246CF1100DB827A /* Descent.mp3 in Resources */,
 			);
